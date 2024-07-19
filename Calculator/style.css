@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+    background-color: black;
+}
+.final-ans input{
+    padding-top: 30%;
+    width: 90%;
+    padding-bottom: 5%;
+    font-size: 2.5em;
+    text-align: end;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+button{
+    height: 10vh;
+    width: 7vw;
+    border-radius: 15%;
+    background-color: rgb(46, 45, 45);
+    font-size: 2em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.row-1 button{
+    background-color: rgb(175, 170, 170);
+}
+.bgyellow{
+    background-color: rgb(231, 161, 10);
+    margin-right: 10px;
+}
+#lastbtn{
+    width: 7em;
+}
+/* .operations{
+    width: 40vw;
+} */
